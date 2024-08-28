@@ -1,0 +1,167 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px;
+    
+}
+.input-container {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 15px;
+}
+
+
+.left-section {
+    background-color:rgb(252, 246, 239);
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.right-section {
+    flex-direction: column;
+    max-width: 50%;
+    padding: 10px;
+}
+
+.illustration {
+    width: 450px;
+    height: 370px;
+}
+
+.caption {
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: auto;
+    font-family: 'Lucida', sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    color: #000;
+}
+
+.icons {
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    margin-right: 16px;
+}
+.fa-brands.fa-twitter {
+    color: hsl(210, 100%, 50%)
+}
+.fa-brands.fa-instagram {
+    color: hsl(275, 100%, 49%);
+}
+.fa-brands.fa-facebook {
+    color:hsl(210, 100%, 45%);
+}
+.fa-brands.fa-linkedin-in {
+    color: hsl(209, 100%, 70%)db;
+}
+
+
+.top-right-fixed {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+    border-color: #000;
+}
+
+.hide-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar{
+    display: none;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #495057;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="password"],
+select {
+    width: 250px;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    outline: none;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[list="sources"],
+input[list="countries"],
+input[type="password"],
+select {
+    font-family: 'Verdana', sans-serif;
+    font-size: 13px;
+    padding: 5x;    
+}
+input {
+    background-color: #f0f0f0;
+    height: 60px;
+    text-indent: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    cursor:context-menu;
+    transition: border-color 0.3s ease;
+}
+.input datalist{
+    color: white
+}
+.custom-input:hover {
+    border-color: #3498db;
+}
+.custom-input:focus {
+    border-color: #04b3f8;
+    outline: none;
+}
+
+.btn-arrow {
+    display: inline-flex;
+    justify-content: center;
+    background-color: hsl(220, 83%, 60%);
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-weight: 500;
+    gap: 100px;
+    width: 525px;
+}
+
+.btn-arrow:hover {
+    background-color: hsl(220, 83%, 70%) ;
+}
+
+.btn-arrow::after {
+    content: →;
+    font-size: 18px;
+}
