@@ -1,7 +1,9 @@
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 0px;    
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;    
 }
 .input-container {
     display: flex;
@@ -12,13 +14,13 @@
 
 .left-section {
     background-color:rgb(252, 246, 239);
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     padding: 20px;
 }
 
 .right-section {
-    flex-direction: row;
+    flex-direction: column;
     max-width: 50%;
     padding: 10px;
 }
@@ -162,3 +164,14 @@ input {
     content: →;
     font-size: 18px;
 }
+@media(max-width: 750px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .input-container {
+        display: flex;
+        gap: 25px;
+        margin-bottom: 10px;
+    }
+} 
