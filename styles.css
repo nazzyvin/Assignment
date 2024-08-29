@@ -30,6 +30,9 @@
     height: 370px;
 }
 
+.illustration-2 {
+    display: none;
+}
 .caption {
     margin-top: 10px;
     margin-left: 20%;
@@ -123,6 +126,9 @@ input {
 .input datalist{
     color: white
 }
+#source {
+    width: 525px;
+}
 .custom-input:hover {
     border-color: #3498db;
 }
@@ -162,8 +168,16 @@ input {
         display: flex;
         flex-direction: column;
     }
+    .left-section {
+        display: none;
+    }
+    .right-section img {
+        display: block;
+        width: 450px;
+        height: 75px;
+        text-align: center;
+    }
     .text {
-        max-width: 450px;
         width: 430px;
         font-size: smaller;
     }
@@ -172,18 +186,11 @@ input {
         margin-bottom: 10px;
         font-size: smaller;
     }
-    .right-section {
-        max-width: 25%;
-    }
     label {
         font-size: small;
         margin-bottom: 3px;
         color: #495057;
         width: 450px;
-    }
-    .illustration {
-        width: 350px;
-        height: 270px;
     }
 input[type="text"],
 input[type="email"],
@@ -200,14 +207,11 @@ select {
     border-radius: 3px;
 }
 input {
-    max-width: 420px;
     margin-bottom: 8px;
     gap: 50px;
     font-size: smaller;
 }
-#source {
-    max-width: 415px;
-}
+
 h2 {
     font-size: large;
 }
@@ -215,15 +219,16 @@ h2 {
     width: 400px;
     font-size: smaller;
 }
+#source {
+    width: 430px;
+}
 #terms-and-conditions {
-    max-width: 400px;
-    width: 500px;
+    width: 430px;
     font-size: x-small;
 }
 .btn-arrow {
     width: 420px;
     height: 40px;
-    max-width: 450px;
     font-size: x-small;
 }
 } 
