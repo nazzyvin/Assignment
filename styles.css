@@ -177,7 +177,6 @@ input {
     }
     label {
         font-size: small;
-        margin-left: 5%;
         margin-bottom: 3px;
         color: #495057;
         width: 450px;
@@ -202,7 +201,6 @@ select {
 }
 input {
     max-width: 420px;
-    margin-left: 5%;
     margin-bottom: 8px;
     gap: 50px;
     font-size: smaller;
@@ -211,7 +209,7 @@ input {
     max-width: 415px;
 }
 h2 {
-    font-size: medium;
+    font-size: large;
 }
 #intro {
     width: 400px;
@@ -220,13 +218,11 @@ h2 {
 #terms-and-conditions {
     max-width: 400px;
     width: 500px;
-    margin-left: 15%;
     font-size: x-small;
 }
 .btn-arrow {
     width: 420px;
     height: 40px;
-    margin-left: 5%;
     max-width: 450px;
     font-size: x-small;
 }
