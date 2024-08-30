@@ -75,7 +75,10 @@
 .form-group {
     margin-bottom: 15px;
 }
-
+.intro {
+    overflow-x: scroll;
+    overflow-x: hidden;
+}
 label {
     display: block;
     margin-bottom: 5px;
@@ -176,6 +179,10 @@ input {
         height: 75px;
         text-align: center;
     }
+    .intro {
+        overflow-x: scroll;
+        overflow-x: visible;
+    }
     .text {
         width: 430px;
         font-size: smaller;
@@ -188,6 +195,7 @@ input {
     label {
         font-size: small;
         margin-bottom: 3px;
+        margin-left: 5%;
         color: #495057;
         width: 450px;
     }
@@ -204,6 +212,7 @@ select {
     height: 40px;
     font-size: smaller;
     border-radius: 3px;
+    margin-left: 5%;
 }
 input {
     margin-bottom: 8px;
@@ -232,10 +241,9 @@ h2 {
 }
 table {
     align-content: center;
-    width: 50px;
-    border-collapse: collapse;
-    margin-top: 0%;
-    margin-left: 15%;
+    width: 350px;
+    margin-left: 10%;
+    margin-right: 15%;
 }
 
 } 
