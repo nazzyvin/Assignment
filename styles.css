@@ -1,3 +1,19 @@
+.top-section {
+    background-color: hsl(215, 45%, 37%);
+    color: rgb(8, 14, 27);
+    text-align: left;
+    padding: 10px;
+ }
+.top-section a {
+    margin-right: 20px;
+}
+
+.p {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
 .container {
     display: flex;
     justify-content: space-between;
@@ -165,6 +181,21 @@ input {
     content: →;
     font-size: 18px;
 }
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media(max-width: 750px) {
     .container {
         display: flex;
@@ -239,11 +270,24 @@ h2 {
     height: 40px;
     font-size: x-small;
 }
-table {
+header nav a {
+    margin-left: 5px;
+}
+caption {
+    font-size: x-large;
+}
+table, th, td {
     align-content: center;
-    width: 350px;
-    margin-left: 5%;
-    margin-right: 15%;
+    width: 300px;
+    margin-left: 100px;
+    margin-right: 60px;
+}
+img {
+    width: 200px;
+    height: 250px;
+}
+video {
+    width: 250px;
 }
 
 } 
