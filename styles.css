@@ -26,9 +26,10 @@
     gap: 25px;
     margin-bottom: 15px;
 }
-
-.left-section {
+.left-section, left-section-top {
     background-color:rgb(252, 246, 239);
+}
+.left-section {
     flex-direction: column;
     text-align: center;
     padding: 20px;
@@ -289,4 +290,5 @@ img {
 video {
     width: 250px;
 }
+
 } 
